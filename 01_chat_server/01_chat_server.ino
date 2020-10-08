@@ -42,9 +42,10 @@ void setup() {
   Serial.print("Chat server adress: ");
   Serial.println(Ethernet.localIP());
   server.begin();
+
 }
 
 void loop() {
- server.print("Hello everybody!");
+
  Ethernet.maintain();
 }
